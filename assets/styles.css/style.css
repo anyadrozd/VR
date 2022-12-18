@@ -1,0 +1,92 @@
+.wrapper {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.nav__logo {
+    display: flex;
+    align-items: center;
+
+
+}
+.nav__name {
+    display: flex;
+    align-items: center;;
+    font-weight: bolder;
+    font-family: 'Intro';
+    margin: 10px;
+}
+.nav__logo-img{
+    margin-left: 70px;
+}
+.nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.nav__button-button {
+    background: #5222D0;
+border-radius: 100px;
+color: white;
+border: none;
+Width: 115px;
+Height: 38px;
+font-weight: bolder;
+cursor: pointer;
+}
+.nav__button-button:hover{
+    box-shadow: 4px 4px 8px 0px rgba(71, 77, 159, 0.2);
+}
+.nav__button {
+    margin-right: 64px;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-top: 80px;
+
+}
+.main__text {
+
+    font-family: 'Intro ';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height:160%
+}
+.main_text-text{
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 160%;
+}
+.main__text_button {
+    Width: 270px;
+Height: 84px;
+background: #5222D0;
+border-radius: 100px;
+color: white;
+border: none;
+font-weight: bolder;
+cursor: pointer;
+}
+.main__text_button:hover{
+    box-shadow: 4px 4px 8px 0px rgba(71, 77, 159, 0.2);
+}
+.footer {
+    border: 1px solid black;
+    display: flex;
+    height: 15vh;
+}
+.footer_nav  {
+    margin: 34px;
+    text-decoration: none;
+    color: #5222D0;
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 160%;
+}
